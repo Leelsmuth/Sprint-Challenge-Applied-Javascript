@@ -29,14 +29,23 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the DOM?
+Ans: DOM(or Document Object Model) is basically a cross-platform and language-independent interface that treats an HTML or XML document as a tree structure where each node is an object representing a part of the document. In basic layman terms, the DOM can be split into these three things:
+
+D- Document: So basically, this is your HTML or XML file.
+O- Object: anything that you put in your file(eg html tag, body tag, title tag, header, paragraph, button, text, img etc)
+M- Model: Simply means how you layout these semantic structures.
 
 2. What is an event?
+Ans: Events are a generally all of the things the computer can react to. For example, when you press a key, a "keypress" event is triggered. A click, a window resize, a touch gesture are all actions that the computer can react to.
 
 3. What is an event listener?
+Ans: An event listener is an object that listens and takes actions upon the triggering of certain events. In JavaScript, the addEventListener() is an inbuilt function which takes the event to listen for, and a second argument to be called whenever the described event gets fired
 
 4. Why would we convert a NodeList into an Array?
+Ans: The major reason is so you can have access to all the JavaScript functions at our disposal. The nodelist only comes with very limited built in functions.
 
 5. What is a component?
+Ans: A component is an identifiable part of a larger program or construction. It is made up of several parts: HTML, CSS, or JavaScript brought together for reuse in a website or application.
 
 ### Git Set up
 
